@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2134A08228C78EA300039638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134A08128C78EA300039638 /* AppDelegate.swift */; };
+		2134A08428C78EA300039638 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134A08328C78EA300039638 /* SceneDelegate.swift */; };
+		2134A08628C78EA300039638 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134A08528C78EA300039638 /* ViewController.swift */; };
+		2134A08928C78EA300039638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2134A08728C78EA300039638 /* Main.storyboard */; };
+		2134A08B28C78EA400039638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2134A08A28C78EA400039638 /* Assets.xcassets */; };
+		2134A08E28C78EA400039638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2134A08C28C78EA400039638 /* LaunchScreen.storyboard */; };
+		2134A09928C78EA400039638 /* CaritasProyectoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134A09828C78EA400039638 /* CaritasProyectoTests.swift */; };
+		2134A0A328C78EA400039638 /* CaritasProyectoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134A0A228C78EA400039638 /* CaritasProyectoUITests.swift */; };
+		2134A0A528C78EA400039638 /* CaritasProyectoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134A0A428C78EA400039638 /* CaritasProyectoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2134A09528C78EA400039638 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2134A07628C78EA300039638 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2134A07D28C78EA300039638;
+			remoteInfo = CaritasProyecto;
+		};
+		2134A09F28C78EA400039638 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2134A07628C78EA300039638 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2134A07D28C78EA300039638;
+			remoteInfo = CaritasProyecto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2134A07E28C78EA300039638 /* CaritasProyecto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaritasProyecto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2134A08128C78EA300039638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2134A08328C78EA300039638 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2134A08528C78EA300039638 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2134A08828C78EA300039638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2134A08A28C78EA400039638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2134A08D28C78EA400039638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2134A08F28C78EA400039638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2134A09428C78EA400039638 /* CaritasProyectoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaritasProyectoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2134A09828C78EA400039638 /* CaritasProyectoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaritasProyectoTests.swift; sourceTree = "<group>"; };
+		2134A09E28C78EA400039638 /* CaritasProyectoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaritasProyectoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2134A0A228C78EA400039638 /* CaritasProyectoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaritasProyectoUITests.swift; sourceTree = "<group>"; };
+		2134A0A428C78EA400039638 /* CaritasProyectoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaritasProyectoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2134A07B28C78EA300039638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2134A09128C78EA400039638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2134A09B28C78EA400039638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2134A07528C78EA300039638 = {
+			isa = PBXGroup;
+			children = (
+				2134A08028C78EA300039638 /* CaritasProyecto */,
+				2134A09728C78EA400039638 /* CaritasProyectoTests */,
+				2134A0A128C78EA400039638 /* CaritasProyectoUITests */,
+				2134A07F28C78EA300039638 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2134A07F28C78EA300039638 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2134A07E28C78EA300039638 /* CaritasProyecto.app */,
+				2134A09428C78EA400039638 /* CaritasProyectoTests.xctest */,
+				2134A09E28C78EA400039638 /* CaritasProyectoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2134A08028C78EA300039638 /* CaritasProyecto */ = {
+			isa = PBXGroup;
+			children = (
+				2134A08128C78EA300039638 /* AppDelegate.swift */,
+				2134A08328C78EA300039638 /* SceneDelegate.swift */,
+				2134A08528C78EA300039638 /* ViewController.swift */,
+				2134A08728C78EA300039638 /* Main.storyboard */,
+				2134A08A28C78EA400039638 /* Assets.xcassets */,
+				2134A08C28C78EA400039638 /* LaunchScreen.storyboard */,
+				2134A08F28C78EA400039638 /* Info.plist */,
+			);
+			path = CaritasProyecto;
+			sourceTree = "<group>";
+		};
+		2134A09728C78EA400039638 /* CaritasProyectoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2134A09828C78EA400039638 /* CaritasProyectoTests.swift */,
+			);
+			path = CaritasProyectoTests;
+			sourceTree = "<group>";
+		};
+		2134A0A128C78EA400039638 /* CaritasProyectoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2134A0A228C78EA400039638 /* CaritasProyectoUITests.swift */,
+				2134A0A428C78EA400039638 /* CaritasProyectoUITestsLaunchTests.swift */,
+			);
+			path = CaritasProyectoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2134A07D28C78EA300039638 /* CaritasProyecto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2134A0A828C78EA400039638 /* Build configuration list for PBXNativeTarget "CaritasProyecto" */;
+			buildPhases = (
+				2134A07A28C78EA300039638 /* Sources */,
+				2134A07B28C78EA300039638 /* Frameworks */,
+				2134A07C28C78EA300039638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaritasProyecto;
+			productName = CaritasProyecto;
+			productReference = 2134A07E28C78EA300039638 /* CaritasProyecto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2134A09328C78EA400039638 /* CaritasProyectoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2134A0AB28C78EA400039638 /* Build configuration list for PBXNativeTarget "CaritasProyectoTests" */;
+			buildPhases = (
+				2134A09028C78EA400039638 /* Sources */,
+				2134A09128C78EA400039638 /* Frameworks */,
+				2134A09228C78EA400039638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2134A09628C78EA400039638 /* PBXTargetDependency */,
+			);
+			name = CaritasProyectoTests;
+			productName = CaritasProyectoTests;
+			productReference = 2134A09428C78EA400039638 /* CaritasProyectoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2134A09D28C78EA400039638 /* CaritasProyectoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2134A0AE28C78EA400039638 /* Build configuration list for PBXNativeTarget "CaritasProyectoUITests" */;
+			buildPhases = (
+				2134A09A28C78EA400039638 /* Sources */,
+				2134A09B28C78EA400039638 /* Frameworks */,
+				2134A09C28C78EA400039638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2134A0A028C78EA400039638 /* PBXTargetDependency */,
+			);
+			name = CaritasProyectoUITests;
+			productName = CaritasProyectoUITests;
+			productReference = 2134A09E28C78EA400039638 /* CaritasProyectoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2134A07628C78EA300039638 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2134A07D28C78EA300039638 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					2134A09328C78EA400039638 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2134A07D28C78EA300039638;
+					};
+					2134A09D28C78EA400039638 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2134A07D28C78EA300039638;
+					};
+				};
+			};
+			buildConfigurationList = 2134A07928C78EA300039638 /* Build configuration list for PBXProject "CaritasProyecto" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2134A07528C78EA300039638;
+			productRefGroup = 2134A07F28C78EA300039638 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2134A07D28C78EA300039638 /* CaritasProyecto */,
+				2134A09328C78EA400039638 /* CaritasProyectoTests */,
+				2134A09D28C78EA400039638 /* CaritasProyectoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2134A07C28C78EA300039638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2134A08E28C78EA400039638 /* LaunchScreen.storyboard in Resources */,
+				2134A08B28C78EA400039638 /* Assets.xcassets in Resources */,
+				2134A08928C78EA300039638 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2134A09228C78EA400039638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2134A09C28C78EA400039638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2134A07A28C78EA300039638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2134A08628C78EA300039638 /* ViewController.swift in Sources */,
+				2134A08228C78EA300039638 /* AppDelegate.swift in Sources */,
+				2134A08428C78EA300039638 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2134A09028C78EA400039638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2134A09928C78EA400039638 /* CaritasProyectoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2134A09A28C78EA400039638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2134A0A328C78EA400039638 /* CaritasProyectoUITests.swift in Sources */,
+				2134A0A528C78EA400039638 /* CaritasProyectoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2134A09628C78EA400039638 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2134A07D28C78EA300039638 /* CaritasProyecto */;
+			targetProxy = 2134A09528C78EA400039638 /* PBXContainerItemProxy */;
+		};
+		2134A0A028C78EA400039638 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2134A07D28C78EA300039638 /* CaritasProyecto */;
+			targetProxy = 2134A09F28C78EA400039638 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2134A08728C78EA300039638 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2134A08828C78EA300039638 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2134A08C28C78EA400039638 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2134A08D28C78EA400039638 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2134A0A628C78EA400039638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2134A0A728C78EA400039638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2134A0A928C78EA400039638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CHNNPCP83M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CaritasProyecto/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tec.mx.CaritasProyecto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2134A0AA28C78EA400039638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CHNNPCP83M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CaritasProyecto/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tec.mx.CaritasProyecto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2134A0AC28C78EA400039638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CHNNPCP83M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tec.mx.CaritasProyectoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaritasProyecto.app/CaritasProyecto";
+			};
+			name = Debug;
+		};
+		2134A0AD28C78EA400039638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CHNNPCP83M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tec.mx.CaritasProyectoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaritasProyecto.app/CaritasProyecto";
+			};
+			name = Release;
+		};
+		2134A0AF28C78EA400039638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CHNNPCP83M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tec.mx.CaritasProyectoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CaritasProyecto;
+			};
+			name = Debug;
+		};
+		2134A0B028C78EA400039638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CHNNPCP83M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tec.mx.CaritasProyectoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CaritasProyecto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2134A07928C78EA300039638 /* Build configuration list for PBXProject "CaritasProyecto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2134A0A628C78EA400039638 /* Debug */,
+				2134A0A728C78EA400039638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2134A0A828C78EA400039638 /* Build configuration list for PBXNativeTarget "CaritasProyecto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2134A0A928C78EA400039638 /* Debug */,
+				2134A0AA28C78EA400039638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2134A0AB28C78EA400039638 /* Build configuration list for PBXNativeTarget "CaritasProyectoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2134A0AC28C78EA400039638 /* Debug */,
+				2134A0AD28C78EA400039638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2134A0AE28C78EA400039638 /* Build configuration list for PBXNativeTarget "CaritasProyectoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2134A0AF28C78EA400039638 /* Debug */,
+				2134A0B028C78EA400039638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2134A07628C78EA300039638 /* Project object */;
+}
