@@ -16,6 +16,10 @@
 		2134A09928C78EA400039638 /* CaritasProyectoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134A09828C78EA400039638 /* CaritasProyectoTests.swift */; };
 		2134A0A328C78EA400039638 /* CaritasProyectoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134A0A228C78EA400039638 /* CaritasProyectoUITests.swift */; };
 		2134A0A528C78EA400039638 /* CaritasProyectoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134A0A428C78EA400039638 /* CaritasProyectoUITestsLaunchTests.swift */; };
+		2134A0B228C78FC100039638 /* signupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134A0B128C78FC100039638 /* signupViewController.swift */; };
+		2134A0B628C793D200039638 /* registroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134A0B528C793D200039638 /* registroViewController.swift */; };
+		2134A0BC28C794A700039638 /* perfilVoluntarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134A0BB28C794A700039638 /* perfilVoluntarioViewController.swift */; };
+		2134A0BE28C794B000039638 /* principalVoluntarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134A0BD28C794B000039638 /* principalVoluntarioViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		2134A09E28C78EA400039638 /* CaritasProyectoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaritasProyectoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2134A0A228C78EA400039638 /* CaritasProyectoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaritasProyectoUITests.swift; sourceTree = "<group>"; };
 		2134A0A428C78EA400039638 /* CaritasProyectoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaritasProyectoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2134A0B128C78FC100039638 /* signupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupViewController.swift; sourceTree = "<group>"; };
+		2134A0B528C793D200039638 /* registroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registroViewController.swift; sourceTree = "<group>"; };
+		2134A0BB28C794A700039638 /* perfilVoluntarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = perfilVoluntarioViewController.swift; sourceTree = "<group>"; };
+		2134A0BD28C794B000039638 /* principalVoluntarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = principalVoluntarioViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				2134A08328C78EA300039638 /* SceneDelegate.swift */,
 				2134A08528C78EA300039638 /* ViewController.swift */,
 				2134A08728C78EA300039638 /* Main.storyboard */,
+				2134A0B528C793D200039638 /* registroViewController.swift */,
+				2134A0B128C78FC100039638 /* signupViewController.swift */,
+				2134A0BB28C794A700039638 /* perfilVoluntarioViewController.swift */,
+				2134A0BD28C794B000039638 /* principalVoluntarioViewController.swift */,
 				2134A08A28C78EA400039638 /* Assets.xcassets */,
 				2134A08C28C78EA400039638 /* LaunchScreen.storyboard */,
 				2134A08F28C78EA400039638 /* Info.plist */,
@@ -260,7 +272,11 @@
 			files = (
 				2134A08628C78EA300039638 /* ViewController.swift in Sources */,
 				2134A08228C78EA300039638 /* AppDelegate.swift in Sources */,
+				2134A0B228C78FC100039638 /* signupViewController.swift in Sources */,
 				2134A08428C78EA300039638 /* SceneDelegate.swift in Sources */,
+				2134A0B628C793D200039638 /* registroViewController.swift in Sources */,
+				2134A0BC28C794A700039638 /* perfilVoluntarioViewController.swift in Sources */,
+				2134A0BE28C794B000039638 /* principalVoluntarioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
