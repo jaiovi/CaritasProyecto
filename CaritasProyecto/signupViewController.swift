@@ -9,13 +9,22 @@ import UIKit
 
 class signupViewController: UIViewController {
 
+    @IBOutlet weak var tfEmail: UITextField!
+    
+    @IBOutlet weak var tfPassword: UITextField!
+    @IBOutlet weak var tfCURP: UITextField!
+    @IBOutlet weak var tfNombre: UITextField!
+    @IBOutlet weak var tfDomicilio: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func btnSignup(_ sender: UIButton) {
+    }
+    
     /*
     // MARK: - Navigation
 
