@@ -25,5 +25,8 @@ class principalVoluntarioViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func cerrarVentanaPrincipal(_ sender: UIBarButtonItem) {
+        self.view.window!.rootViewController?.dismiss(animated: true, completion: nil) //para eliminar cache
+    }
+    
 }

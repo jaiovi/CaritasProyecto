@@ -25,5 +25,8 @@ class perfilVoluntarioViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func cerrarVentanaPerfil(_ sender: UIBarButtonItem) {
+        dismiss(animated: true, completion: nil) //para eliminar cache
+    }
+    
 }

@@ -25,5 +25,8 @@ class registroViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func cerrarVentanaRegistro(_ sender: UIBarButtonItem) {
+        dismiss(animated: true, completion: nil) //para eliminar cache
+    }
+    
 }
